@@ -1,7 +1,4 @@
-// 19 task - Scope examples
-
-
-
+// 27 task
 
 
 
@@ -40,6 +37,7 @@
 
 
 
+
 //3 task
 
 // const firstName = "Kerim";
@@ -52,6 +50,8 @@
 
 
 
+
+
 // 4 task
 
 // const firstName = "Kerim";
@@ -61,6 +61,7 @@
 // How are you today?`;
 
 // console.log(sentence);
+
 
 
 
@@ -86,6 +87,8 @@
 
 
 
+
+
 //6 task
 
 // const num = 5;
@@ -99,6 +102,8 @@
 //in console
 // Number.MAX_SAFE_INTEGER
 // Number.MIN_SAFE_INTEGER
+
+
 
 
 
@@ -124,6 +129,7 @@
 // }
 
 // console.log(greeting);
+
 
 
 
@@ -159,6 +165,8 @@
 
 
 
+
+
 // 9 task - If statement
 
 
@@ -169,6 +177,7 @@
 // } else {
 //     // turn the lights on
 // }
+
 
 
 
@@ -184,6 +193,7 @@
 // } else {
 //     console.log('Wooooooooo');
 // }
+
 
 
 
@@ -248,6 +258,7 @@
 
 
 
+
 //14 task - incrementing in loops
 
 // let friendsAtYourParty = 0;
@@ -272,6 +283,7 @@
 
 
 
+
 // 16 task - Looping solution
 
 // const character = 'f';
@@ -283,6 +295,7 @@
 // }
 
 // console.log(answer);
+
 
 
 
@@ -348,6 +361,7 @@
 
 
 
+
 // 18 task - Scope
 
 // function addFive(number) {
@@ -366,3 +380,143 @@
 
 // console.log(addFive(10));
 // console.log(someVariable);
+
+
+
+
+
+
+// 19 task - Scope examples
+
+// let friendsAtYourParty = 0;
+
+// for (let i = 0; i <= 10; i++) {
+//     console.log(i);
+//     friendsAtYourParty++;
+// }
+
+// console.log(i);
+
+
+// const A = "A";
+// let F;
+
+// function doStuff(B) {
+//     console.log(B);
+//     const C = "C";
+//     let H = "H";
+//     if (1 + 1 === 2) {
+//         const D = "D";
+//         H = "something else";
+//     }
+//     console.log(D);
+//     console.log(H);
+//     F = "F";
+// }
+
+// let E = 0;
+// while (E < 3) {
+//    E++;
+//    console.log(A);
+//    const G = "G";
+// }
+// console.log(E);
+// console.log(G);
+
+// doStuff("B");
+// console.log(B);
+// console.log(C);
+// console.log(F);
+
+
+
+
+
+
+
+// 20 - experimenting with scope
+
+// let something = 'Outside the if statement';
+
+// if (true) {
+//     let something = 'Inside the if statement';
+//     console.log(something);
+// }
+
+// console.log(something);
+
+
+// let something = 'Outside the if statement';
+
+// if (true) {
+//     something = 'Inside the if statement';
+//     console.log(something);
+// }
+
+// console.log(something);
+
+// let something = 'Outside the function';
+// let thingToKeep;
+
+// function thing () {
+//     let something = 'Outside the if statement';
+//     if (true) {
+//         let something = 'Inside the if statement';
+//         console.log(something);
+//     }
+//     console.log(something);
+//     thingToKeep = 'defined now'
+// }
+// thing();
+
+// console.log(something);
+// console.log(thingToKeep);
+
+
+
+
+
+// 21 task - Builtins
+
+// const sentence = 'ThIs hAs wEiRd cAsInG oN iT';
+
+// console.log(sentence.toLowerCase());
+// console.log(sentence.toUpperCase());
+
+
+
+
+
+// 22 task - Math and substr
+
+// console.log(Math.floor(5.1));
+// console.log(Math.ceil(5.9));
+// console.log(Math.min(5.1, 1, 100, 0.5));
+
+// const name = "Kerim Imamovic";
+// console.log(name.substr(6,3));
+//ignores first 6 characters
+
+
+
+
+// 23 task - Quiz
+
+//quiz_kerim.js
+//quiz_setup.js
+//quiz_done.js
+
+
+
+// 24 task - Abstract comparison
+
+// == 
+//===
+
+
+
+//25 task - Quiz solution with strings
+
+
+
+//26 task - Quiz exercise solution with numbers
