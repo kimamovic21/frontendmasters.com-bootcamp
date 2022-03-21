@@ -1,4 +1,13 @@
-// 27 task
+// 30 - Arrays
+
+
+
+
+
+
+
+
+
 
 
 
@@ -500,11 +509,13 @@
 
 
 
+
 // 23 task - Quiz
 
 //quiz_kerim.js
 //quiz_setup.js
 //quiz_done.js
+
 
 
 
@@ -515,8 +526,146 @@
 
 
 
+
 //25 task - Quiz solution with strings
 
 
 
+
 //26 task - Quiz exercise solution with numbers
+
+
+
+
+
+
+// 27 task - Objects
+
+// const person = {
+//     name : "Kerim Imamovic",
+//     city : "Sarajevo",
+//     state: "B&H",
+//     favoriteFood: "Tacos",
+//     wantsTacosRightNow: true,
+//     numberOfTacosWanted: 10
+// };
+
+// console.log(person);
+// console.log(person.name);
+
+//keys have to be unique, values don't
+
+
+// const person1 = {
+//     name : "Brian",
+//     ageRange: "26-35"
+// };
+
+// const person2 = {
+//     name : "Jack",
+//     ageRange: "65-70"
+// };
+
+// const person3 = {
+//     name : "Kerim",
+//     ageRange: "20-25"
+// }
+
+
+// function suggestMusic(person) {
+
+//     if (person.ageRange === "26-35") {
+//         console.log("We think you'll like Daft Punk.");
+//     } else if (person.ageRange === "65-70") {
+//         console.log("You're obviously going to like Johnny Cash.");
+//     } else {
+//         console.log("Uh, maybe try David Bowie?");
+//     }
+
+// }
+
+// suggestMusic(person1);
+// suggestMusic(person2);
+// suggestMusic(person3);
+
+
+//Objects can even have their functions.
+
+// const dog = {
+//     name : "Rex",
+//     speak() {
+//         console.log("woof woof");
+//     }
+// };
+
+// console.log(dog);
+// console.log(dog.name);
+// dog.speak();
+
+
+//Objects can as well have nested objects inside of them
+//Object is a data structure
+
+// const me = {
+//     name: {
+//         first: "Kerim",
+//         last: "Imamovic"
+//     },
+//     location: {
+//         city: "Sarajevo",
+//         state: "KS",
+//         country: "B&H"
+//     }
+// }
+
+// console.log(me);
+// console.log(me.name);
+// console.log(me.location);
+// console.log(me.name.first);
+
+
+
+
+
+//28 - Context
+
+
+// const me = {
+//     name: {
+//         first: "Kerim",
+//         last: "Imamovic"
+//     },
+//     location: {
+//         streetNumber: 1,
+//         street: "Unknown street",
+//         city: "Sarajevo",
+//         state: "KS",
+//         zipCode: "71000",
+//         country: "B&H"
+//     },
+//     getAddress() {
+//         return `
+//         ${this.name.first} 
+//         ${this.name.last}
+//         ${this.location.streetNumber} 
+//         ${this.location.street}
+//         ${this.location.city}
+//         ${this.location.state}
+//         ${this.location.zipCode}
+//         ${this.location.country}`;
+//     }
+
+// };
+
+// console.log(me.getAddress());
+
+
+
+
+
+
+// 29- Global objects
+
+// console.log(this === window);
+// console.log(this.scrollY);
+// console.log(window.screenY);
