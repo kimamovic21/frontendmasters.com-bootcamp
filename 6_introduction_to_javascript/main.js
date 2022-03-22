@@ -1,4 +1,8 @@
-// 30 - Arrays
+//33 task - Looping over arrays
+
+
+
+
 
 
 
@@ -627,7 +631,7 @@
 
 
 
-//28 - Context
+//28 task - Context
 
 
 // const me = {
@@ -664,8 +668,77 @@
 
 
 
-// 29- Global objects
+// 29 task - Global objects
 
 // console.log(this === window);
 // console.log(this.scrollY);
 // console.log(window.screenY);
+
+
+
+
+
+// 30 task - Arrays
+
+//Arrays - ordered collections of data
+
+// const daysOfTheWeek = [
+//     "Monday",
+//     "Tuesday",
+//     "Wednesday",
+//     "Thursday",
+//     "Friday",
+//     "Saturday",
+//     "Sunday"
+// ];
+
+// console.log(daysOfTheWeek);
+// console.log(daysOfTheWeek[0]);
+// console.log(daysOfTheWeek[6]);
+
+
+
+
+
+//31 task - Arrays methods
+
+// const primeNumbers = [1,2,3,4,5,6,7];
+
+// console.log(primeNumbers.length);
+// console.log(primeNumbers.join(" | "));
+
+
+
+// const courses = [
+//     { teacher: "Kyle Simpson", course: "JS Function Lite" },
+//     { teacher: "Sarah Drasner", course: "Intro to Vue" },
+//     { teacher: "Brian Holt", course: "Complete Intro to React v3" },
+//     { teacher: "Steve Kinney", course: "State Management" }
+// ];
+
+// courses.push({teacher:"Sean Larkin", course:"Webpack"});
+// console.log(courses);
+
+// courses[2] = {teacher:"Brian Holt", course:"Complete Intro to react v4"};
+// console.log(courses);
+
+// const subarray = courses.splice(2,2, {course: "Intro to angular"});
+// console.log(subarray);
+
+
+
+
+//32 task - Types and Q&A
+
+
+// const courses = [
+//     { teacher: "Kyle Simpson", course: "JS Function Lite" },
+//     { teacher: "Sarah Drasner", course: "Intro to Vue" },
+//     { teacher: "Brian Holt", course: "Complete Intro to React v3" },
+//     { teacher: "Steve Kinney", course: "State Management" }
+// ];
+
+// console.log(Object.keys(courses[0]));
+// console.log(courses);
+
+// console.log(typeof 1);
