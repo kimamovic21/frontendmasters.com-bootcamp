@@ -1,9 +1,4 @@
-//33 task - Looping over arrays
-
-
-
-
-
+// 39 task - Introduction to testing
 
 
 
@@ -742,3 +737,153 @@
 // console.log(courses);
 
 // console.log(typeof 1);
+
+
+
+
+
+//33 task - Looping over arrays
+
+// const cities = [
+//     "Seattle",
+//     "San Francisco",
+//     "Salt Late City",
+//     "Amsterdam",
+//     "Hong Kong"
+// ];
+
+// for (let i = 0; i < cities.length; i++){
+//     console.log(cities[i]);
+// }
+
+
+
+
+//34 task - forEach method
+
+
+// const cities = [
+//     "Seattle",
+//     "San Francisco",
+//     "Salt Late City",
+//     "Amsterdam",
+//     "Hong Kong"
+// ];
+
+// cities.forEach(function(city){
+//     console.log(cities);
+// });
+
+// const newCities = cities.map(function(city ){
+//     return city.toLocaleUpperCase()
+// });
+
+// console.log(cities);
+// console.log(newCities);
+
+
+// const someFunction = function() {
+//     return 5
+// };
+
+// const someOtherFunction = function(kerim) {
+//     return kerim()
+// }
+
+// console.log(someOtherFunction(someFunction));
+
+
+
+
+
+//35 task - Map method
+
+
+// const cities = [
+//     "Seattle",
+//     "San Francisco",
+//     "Salt Late City",
+//     "Amsterdam",
+//     "Hong Kong"
+// ];
+
+// const newCities = cities.map(function(city ){
+//     return 5
+// });
+
+// console.log(cities);
+// console.log(newCities);
+
+
+
+
+
+// 36 task - Sort method
+
+
+// const primeNumbers = [2,5,1,3,7,6,9,8,4,11,10];
+
+// console.log(primeNumbers.sort());
+
+// console.log(primeNumbers.sort(function(num1, num2) {
+//     if (num1 > num2) {
+//         return 1;
+//     } else if (num2 > num1) {
+//         return -1;
+//     }
+//     return 0;
+// }));
+
+// console.log(primeNumbers.length);
+// console.log(primeNumbers.join(" | "));
+
+
+
+
+
+// 37 task - Array methods
+
+
+// const x = 'this is some thing';
+// console.log(x.split(''));
+
+// != - not equal
+
+// const y = x.split('')
+//           .map( s => s.toUpperCase())
+//           .filter(s => s != 'I')
+//           .join('');
+// console.log(y);
+
+
+
+
+
+
+// 38 task - And & or operators
+
+// if (2 != 3) {
+//     console.log('These are not equal');
+// }
+
+
+// const x = 5;
+// const y = 10;
+// const z = 11;
+// const isTrue = true;
+
+// if (x != y) {
+//     console.log('These are not equal');
+// }
+
+// if ( x === y && y === 2) {
+//     console.log('These are all equal');
+// }
+
+// if ( isTrue || x === z) {
+//     console.log('This is an or statement');
+// }
+
+// if ( isTrue || ( x === z && y === z)) {
+//     console.log('This is a complicated statement');
+// }
