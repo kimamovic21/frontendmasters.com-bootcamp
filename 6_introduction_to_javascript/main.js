@@ -1,25 +1,3 @@
-// 39 task - Introduction to testing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // 1 task
 
 // Javascript basics
@@ -37,10 +15,12 @@
 
 
 
+
 // 2 task
 
 // const myName = "Kerim Imamovic";
 // console.log(myName);
+
 
 
 
@@ -60,6 +40,7 @@
 
 
 
+
 // 4 task
 
 // const firstName = "Kerim";
@@ -69,6 +50,7 @@
 // How are you today?`;
 
 // console.log(sentence);
+
 
 
 
@@ -97,6 +79,7 @@
 
 
 
+
 //6 task
 
 // const num = 5;
@@ -110,6 +93,7 @@
 //in console
 // Number.MAX_SAFE_INTEGER
 // Number.MIN_SAFE_INTEGER
+
 
 
 
@@ -137,6 +121,7 @@
 // }
 
 // console.log(greeting);
+
 
 
 
@@ -887,3 +872,122 @@
 // if ( isTrue || ( x === z && y === z)) {
 //     console.log('This is a complicated statement');
 // }
+
+
+
+
+// 39 task - Introduction to testing
+
+
+// https://codepen.io/btholt/pen/QZKxRw?editors=0010
+
+
+
+
+// 40 task - Testing exercise
+
+
+// https://codepen.io/btholt/pen/xyEajx?editors=0010
+
+
+
+
+
+// 41 task - Testing solutions with arrays
+
+
+
+
+// 42 task - Testing solutions with objects
+
+
+
+
+// 43 task - Readability and performance Q&A
+
+
+
+
+// 44 task - Testing solution with sort
+
+
+
+
+
+// 45 task - Introduction to the DOM
+
+
+
+// 46 task - Interacting with the DOM
+
+// example in html file
+//querySelector(#, .) and querySelectorAll(#, .)
+//getElementById('')
+
+
+
+
+// 47 task - Looping over query results
+
+// let h2s = document.querySelectorAll('h2');
+// console.log(h2s);
+
+// for(let i = 0; i < h2s.length; i++) {
+//     h2s[i].style.color = 'red';
+// }
+
+// x = Array.from(h2s);
+// console.log(x);
+
+
+
+
+
+// 48 task - Interacting with a webpage
+
+// const elementsToChange = document.querySelectorAll('.js-target');
+// for (let i = 0; i < elementsToChange.length; i++) {
+//     const currentElement = elementsToChange[i];
+//     currentElement.innerHTML = "Modified by Javascript";
+// }
+
+
+
+
+
+// 49 task - Event & listeners
+
+
+// const button = document.querySelector('.event-button');
+// button.addEventListener( 'click', function() {
+//     alert("Hey there!");
+// } );
+
+
+
+
+
+
+// 50 task - Keyup event
+
+
+// const input = document.querySelector('.input-to-copy');
+// const paragraph = document.querySelector('.p-to-copy-to');
+
+// input.addEventListener("keyup", function() {
+//     paragraph.innerHTML = input.value;
+// });
+
+
+// input.addEventListener("keyup", function(event) {
+//     paragraph.innerHTML = event.target.value;
+// });
+
+
+
+
+// 51 task - Event delagations
+
+// document.querySelector('.button-container').addEventListener('click', function(event) {
+//     alert (`You clicked on button ${event.target.innerText}`);
+// });
